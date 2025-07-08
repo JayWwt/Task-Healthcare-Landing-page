@@ -408,3 +408,63 @@
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
+
+.subscribe-section {
+    background: rgba(55, 120, 128, 0.85);
+    padding: 40px 20px;
+    color: #fff;
+}
+
+
+.sub-text {
+    font-family: PlayFair Display;
+    font-size: 36px;
+    letter-spacing: 3%;
+}
+
+.subscribe-form input[type="email"] {
+    border-radius: 8px;
+    border: 1px solid rgba(212, 212, 212, 1);
+    padding: 10px 15px;
+    background-color: transparent;
+    color: white;
+    
+
+}
+
+.subscribe-form input::placeholder {
+    font-family: Poppins Medium;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+
+.subscribe-form input:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.subscribe-form button {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 1);
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    width: 180px;
+    height: 50px;
+    font-family: Poppins Medium;
+    font-weight: 500;
+    font-size: 20px;
+     transition: all 0.5s ease;
+     
+}
+
+
+.subscribe-form button:hover{
+    background-color: coral;
+}
+
+
