@@ -5,14 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthcare Landing Page</title>
+    <meta name="description"
+        content="Explore expert healthcare services, counselling, and monitoring to help you live a healthy life.">
+    <meta property="og:title" content="Healthcare Landing Page" />
+    <meta property="og:description"
+        content="Stay healthy with our expert counselling,monitoring and healthcare services" />
+    <meta property="og:image" content="images/Logo.jpg" />
+    <meta property="og:url" content="https://example.com" />
+    <link rel="canonical" href="https://example.com/" />
     <link rel="icon" href="images/Logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.2/css/all.css" crossorigin="anonymous">
+    <link rel="preload" href="font/Montserrat-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="Js/bootstrap.bundle.min.js"></script>
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">    
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.2/css/all.css" crossorigin="anonymous">
-
 </head>
 
 <body>
@@ -65,7 +72,7 @@
 
                 <a class="navbar-brand me-4" href="#">
                     <div class="logo">
-                        <img src="images/Logo.jpg" alt="">
+                        <img src="images/Logo.jpg" loading="lazy" alt="logo">
                     </div>
                 </a>
 
@@ -137,8 +144,8 @@
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">
                     <div class="imgage-container align-items-center p-3">
-                        <img src="images/99e3ae3694561f12e98c957019036eac4b9ecc8d.jpg" alt="" width="100%"
-                            height="436px" class=" rounded-4 " style="object-fit: cover; ">
+                        <img src="images/99e3ae3694561f12e98c957019036eac4b9ecc8d.jpg" loading="lazy" alt="banner image"
+                            width="100%" height="436px" class=" rounded-4 " style="object-fit: cover; ">
                     </div>
                 </div>
             </div>
@@ -179,7 +186,7 @@
     </section>
     <!------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-    <section id="info section">
+    <section id="info-section">
         <div class="container-fluid px-5 py-2">
             <div class="row gx-4 align-items-center ">
                 <div class="col-lg-6 order-2 order-lg-1">
@@ -200,8 +207,8 @@
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2">
                     <div class="imgage-container align-items-center p-3">
-                        <img src="images/79269dfc5e3f818331dc6d5664efc8088e544aa3.jpg" alt="" width="100%"
-                            height="440px" class=" rounded-4 info-img">
+                        <img src="images/79269dfc5e3f818331dc6d5664efc8088e544aa3.jpg" loading="lazy" alt="doctor Image"
+                            width="100%" height="440px" class=" rounded-4 info-img">
                     </div>
                 </div>
             </div>
@@ -214,8 +221,8 @@
 
                 <div class="col-lg-6 order-1 order-lg-1">
                     <div class="imgage-container align-items-center p-3">
-                        <img src="images/a0a3037de0cf0bfac4e35025d4f14b8e0896830e.jpg" alt="" width="100%"
-                            height="440px" class=" rounded-4 info-img">
+                        <img src="images/a0a3037de0cf0bfac4e35025d4f14b8e0896830e.jpg" loading="lazy" alt="team Iamge"
+                            width="100%" height="440px" class=" rounded-4 info-img">
                     </div>
                 </div>
                 <div class="col-lg-6 order-2 order-lg-2">
@@ -253,7 +260,7 @@
 
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xl-3">
                     <div class="service-card">
-                        <img src="images/1949d45fe58f07fe3f87761015be8ab27c849fc1.jpg" alt="Counselling"
+                        <img src="images/1949d45fe58f07fe3f87761015be8ab27c849fc1.jpg" alt="Counselling" loading="lazy"
                             class="service-image">
                         <h4 class="service-text">Counselling</h4>
                     </div>
@@ -262,7 +269,7 @@
 
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xl-3">
                     <div class="service-card">
-                        <img src="images/9e0e34aedc3a7a0fbd44f3d61d9234a99e0eb6af.jpg" alt="Monitoring"
+                        <img src="images/9e0e34aedc3a7a0fbd44f3d61d9234a99e0eb6af.jpg" alt="Monitoring" loading="lazy"
                             class="service-image">
                         <h4 class="service-text">Monitoring</h4>
                     </div>
@@ -271,7 +278,7 @@
 
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xl-3">
                     <div class="service-card">
-                        <img src="images/be96a84bb2006d4acba8f9c8c78471058922b7de.jpg" alt="Health Care"
+                        <img src="images/be96a84bb2006d4acba8f9c8c78471058922b7de.jpg" alt="Health Care" loading="lazy"
                             class="service-image">
                         <h4 class="service-text">Health Care</h4>
                     </div>
@@ -281,7 +288,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xl-3">
                     <div class="service-card">
                         <img src="images/db71b0fb112f38d367f3557abe773c8119babb05.jpg" alt="Physical Care"
-                            class="service-image">
+                            loading="lazy" class="service-image">
                         <h4 class="service-text">Physical Care</h4>
                     </div>
                 </div>
@@ -294,20 +301,23 @@
 
     <!------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-    <section id="gallery section1">
+    <section id="gallery-section1">
         <div class="container-fluid px-5 py-1">
             <h2 class="text-center service-title " style="line-height: 60px;">We Have Done Many Other Project<br>
                 Then We Complate</h2>
 
             <div class="row justify-content-center pt-5">
                 <div class="col-lg-3 col-md-3 col-sm-12">
-                    <img src="images/f2227f79044eec2d772c3ed808d329dcbaffcb25.png" alt="" class="gallery-img1">
+                    <img src="images/f2227f79044eec2d772c3ed808d329dcbaffcb25.png" alt="doctor image" loading="lazy"
+                        class="gallery-img1">
                 </div>
                 <div class=" col-lg-6 col-md-6 col-sm-12">
-                    <img src="images/351c3e877a34ed70820a82f10be121db07bc551a.jpg" alt="" class="gallery-img2">
+                    <img src="images/351c3e877a34ed70820a82f10be121db07bc551a.jpg" alt="oldeage person image"
+                        loading="lazy" class="gallery-img2">
                 </div>
                 <div class=" col-lg-3 col-md-3 col-sm-12">
-                    <img src="images/9e0e34aedc3a7a0fbd44f3d61d9234a99e0eb6af.jpg" alt="" class="gallery-img3">
+                    <img src="images/9e0e34aedc3a7a0fbd44f3d61d9234a99e0eb6af.jpg" alt="doctor-patients check image"
+                        loading="lazy" class="gallery-img3">
 
                 </div>
             </div>
@@ -315,13 +325,16 @@
 
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <img src="images/abfd8149855910b58bd4d52194b0e82fe815df34.png" alt="" class="gallery-img1">
+                    <img src="images/abfd8149855910b58bd4d52194b0e82fe815df34.png" alt="BP check image" loading="lazy"
+                        class="gallery-img1">
                 </div>
                 <div class=" col-lg-3 col-md-3 col-sm-12">
-                    <img src="images/db71b0fb112f38d367f3557abe773c8119babb05.jpg" alt="" class="gallery-img2">
+                    <img src="images/db71b0fb112f38d367f3557abe773c8119babb05.jpg" alt="exercise image" loading="lazy"
+                        class="gallery-img2">
                 </div>
                 <div class=" col-lg-3 col-md-3 col-sm-12">
-                    <img src="images/4b05ade155101d6c416b60693caa18aadd252f16.jpg" alt="" class="gallery-img3">
+                    <img src="images/4b05ade155101d6c416b60693caa18aadd252f16.jpg" alt="doctor-staff image"
+                        loading="lazy" class="gallery-img3">
 
                 </div>
             </div>
@@ -331,108 +344,112 @@
 
     <!------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-  <section class="subscribe-section text-white">
-    <div class="container-fluid px-4 py-1">
-      <div class="row align-items-center text-center text-md-start">
-        <div class="col-md-6 mb-3 mb-md-0">
-          <h4 class="mb-0 sub-text">Get More Update To Subscribe Us</h4>
-        </div>
-        <div class="col-md-6">
-          <form class="d-flex subscribe-form justify-content-center justify-content-md-end">
-            <input type="email" class="form-control me-2 w-50 mr-2" placeholder="Enter your Email Address" required />
-            <button type="submit" class="pr-2 ">
-              Submit <span><img src="images/convertible-car_15944774.gif" alt="" width="30%" height="100%"></span>
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------->
-
-
-<footer>
-  <div class="container-fluid px-5 pt-5">
-    <div class="row">
-
-   
-<div class="col-12 col-md-3 bg-light d-flex flex-column justify-content-between " style="min-height: 100%;">
-        <div class="p-4">
-          <img src="images/Logo.jpg" alt="Logo" class="mb-3" style="width: 50px;">
-          <p class="text-muted small mb-5">
-            Lorem ipsum dolor sit amet, consectetur adipis cing elit. Aenean 
-          </p>
-          <h6 class="fw-bold mb-2">Follow Us</h6>
-          <div class="d-flex gap-3">
-            <a href="#"><i class="fab fa-facebook f-icon"></i></a>
-            <a href="#"><i class="fab fa-youtube f-icon"></i></a>
-            <a href="#"><i class="fab fa-x-twitter f-icon"></i></a>
-            <a href="#"><i class="fab fa-instagram f-icon"></i></a>
-          </div>
-        </div>
-      </div>
-
-      
-      <div class="col-12 col-md-9 d-flex flex-column mt-3">
-
-   
-        <div class="row  ">
-          <div class="col-md-3 mb-4">
-            <h6 class="fw-bold f-title mb-3">What We Do</h6>
-            <ul class="list-unstyled ">
-              <li><a href="#" class=" text-decoration-none f-link">Counselling</a></li>
-              <li><a href="#" class=" text-decoration-none f-link">Monitoring</a></li>
-              <li><a href="#" class=" text-decoration-none f-link">Health Care</a></li>
-              <li><a href="#" class=" text-decoration-none f-link">Physical Care</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-4">
-            <h6 class="fw-bold f-title mb-3">For Patients</h6>
-            <ul class="list-unstyled">
-              <li><a href="#" class=" text-decoration-none f-link">Doctors</a></li>
-              <li><a href="#" class=" text-decoration-none f-link">Clinics</a></li>
-              <li><a href="#" class=" text-decoration-none f-link">Hospitals</a></li>
-              <li><a href="#" class=" text-decoration-none f-link">Book Appointment</a></li>
-              <li><a href="#" class=" text-decoration-none f-link">Full Body Checkups</a></li>
-              <li><a href="#" class=" text-decoration-none f-link">Read Health Articles</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-4">
-            <h6 class="fw-bold f-title mb-3">Information</h6>
-            <ul class="list-unstyled">
-              <li><a href="#" class=" text-decoration-none f-link">Sign Up</a></li>
-              <li><a href="#" class=" text-decoration-none f-link">Join Community</a></li>
-              <li><a href="#" class=" text-decoration-none f-link">Learning</a></li>
-              <li><a href="#" class=" text-decoration-none f-link">Newsletter</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-4">
-            <h6 class="fw-bold f-title mb-3  ">Support</h6>
-            <ul class="list-unstyled">
-              <li><a href="#" class=" text-decoration-none f-link">Help Center</a></li>
-              <li><a href="#" class=" text-decoration-none f-link">Video Tutorial</a></li>
-              <li><a href="#" class="text-muted text-decoration-none f-link">Cookie Settings</a></li>
-            </ul>
-          </div>
-        </div>
-
-        
-        <div class="mt-auto" style="background-color: #3e848c;">
-          <div class="d-flex flex-column flex-md-row justify-content-between align-items-center text-white py-3 px-3">
-            <span class="small">© 2025 All rights reserved, Company Name Website.</span>
-            <div>
-              <a href="#" class="text-white text-decoration-none ">Privacy Policy</a>
-              |
-              <a href="#" class="text-white text-decoration-none">Terms & Conditions</a>
+    <section class="subscribe-section text-white">
+        <div class="container-fluid px-4 py-1">
+            <div class="row align-items-center text-center text-md-start">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <h4 class="mb-0 sub-text">Get More Update To Subscribe Us</h4>
+                </div>
+                <div class="col-md-6">
+                    <form class="d-flex subscribe-form justify-content-center justify-content-md-end">
+                        <input type="email" class="form-control me-2 w-50 mr-2" placeholder="Enter your Email Address"
+                            required />
+                        <button type="submit" class="pr-2 ">
+                            Submit <span><img src="images/convertible-car_15944774.gif" alt="car-animation" width="30%"
+                                    height="100%"></span>
+                        </button>
+                    </form>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </section>
 
-    </div>
-  </div>
-</footer>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+    <footer>
+        <div class="container-fluid px-5 pt-5">
+            <div class="row">
+
+
+                <div class="col-12 col-md-3 bg-light d-flex flex-column justify-content-between "
+                    style="min-height: 100%;">
+                    <div class="p-4">
+                        <img src="images/Logo.jpg" alt="Logo" loading="lazy" class="mb-3" style="width: 50px;">
+                        <p class="text-muted small mb-5">
+                            Lorem ipsum dolor sit amet, consectetur adipis cing elit. Aenean
+                        </p>
+                        <h6 class="fw-bold mb-2">Follow Us</h6>
+                        <div class="d-flex gap-3">
+                            <a href="#"><i class="fab fa-facebook f-icon"></i></a>
+                            <a href="#"><i class="fab fa-youtube f-icon"></i></a>
+                            <a href="#"><i class="fab fa-x-twitter f-icon"></i></a>
+                            <a href="#"><i class="fab fa-instagram f-icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-9 d-flex flex-column mt-3">
+
+
+                    <div class="row  ">
+                        <div class="col-md-3 mb-4">
+                            <h6 class="fw-bold f-title mb-3">What We Do</h6>
+                            <ul class="list-unstyled ">
+                                <li><a href="#" class=" text-decoration-none f-link">Counselling</a></li>
+                                <li><a href="#" class=" text-decoration-none f-link">Monitoring</a></li>
+                                <li><a href="#" class=" text-decoration-none f-link">Health Care</a></li>
+                                <li><a href="#" class=" text-decoration-none f-link">Physical Care</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <h6 class="fw-bold f-title mb-3">For Patients</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class=" text-decoration-none f-link">Doctors</a></li>
+                                <li><a href="#" class=" text-decoration-none f-link">Clinics</a></li>
+                                <li><a href="#" class=" text-decoration-none f-link">Hospitals</a></li>
+                                <li><a href="#" class=" text-decoration-none f-link">Book Appointment</a></li>
+                                <li><a href="#" class=" text-decoration-none f-link">Full Body Checkups</a></li>
+                                <li><a href="#" class=" text-decoration-none f-link">Read Health Articles</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <h6 class="fw-bold f-title mb-3">Information</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class=" text-decoration-none f-link">Sign Up</a></li>
+                                <li><a href="#" class=" text-decoration-none f-link">Join Community</a></li>
+                                <li><a href="#" class=" text-decoration-none f-link">Learning</a></li>
+                                <li><a href="#" class=" text-decoration-none f-link">Newsletter</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <h6 class="fw-bold f-title mb-3  ">Support</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class=" text-decoration-none f-link">Help Center</a></li>
+                                <li><a href="#" class=" text-decoration-none f-link">Video Tutorial</a></li>
+                                <li><a href="#" class="text-muted text-decoration-none f-link">Cookie Settings</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="mt-auto" style="background-color: #3e848c;">
+                        <div
+                            class="d-flex flex-column flex-md-row justify-content-between align-items-center text-white py-3 px-3">
+                            <span class="small">© 2025 All rights reserved, Company Name Website.</span>
+                            <div>
+                                <a href="#" class="text-white text-decoration-none ">Privacy Policy</a>
+                                |
+                                <a href="#" class="text-white text-decoration-none">Terms & Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
 
 
 </body>
