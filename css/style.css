@@ -83,8 +83,10 @@
 
 
 .contact-btn:hover {
-    background-color: coral;
-    color: white;
+    background-color: white;
+    color: #377880;
+    border: 2px solid #377880;
+     /* box-shadow: 0 4px 8px 0 #377880; */
 }
 
 
@@ -543,12 +545,17 @@
     line-height: 30px;
     color: gray
 }
-
+.f-link:hover{
+    color: #024750;
+}
 
 .f-icon {
     color: rgba(56, 133, 146, 1);
 }
 
+.list:hover{
+    color: #377880;
+}
 
 #scrollTopBox {
     position: fixed;
