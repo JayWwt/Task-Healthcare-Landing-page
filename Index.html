@@ -460,7 +460,9 @@
         </div>
     </footer>
 
-
+    <div id="scrollTopBox" onclick="scrollToTop()">
+      <i class="fa-solid fa-angle-up" ></i>
+    </div>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             AOS.init({
@@ -469,6 +471,25 @@
             });
         });
     </script>
+
+    <script>
+        const scrollBtn = document.getElementById("scrollTopBox");
+        window.onscroll = function () {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                scrollBtn.style.display = "block";
+            } else {
+                scrollBtn.style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        }
+    </script>
+
 </body>
 
 </html>

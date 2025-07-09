@@ -28,6 +28,10 @@
 
 }
 
+.social-icons:hover {
+
+    cursor: pointer;
+}
 
 .contact-info {
     font-size: 14px;
@@ -69,8 +73,8 @@
     padding: 0.75rem 2rem !important;
     margin-left: 1.5rem;
     white-space: nowrap;
-   
-  
+
+
 }
 
 
@@ -107,9 +111,10 @@
     }
 }
 
-.navToggleButton{
+.navToggleButton {
     animation: fadeInRight 1s ease-in-out;
 }
+
 .mycontent {
     width: 100%;
 
@@ -127,8 +132,9 @@
     font-size: 18px;
     font-weight: 600;
     font-family: 'sora', semibold;
-      animation: fadeInLeft 1s ease-in-out;
+    animation: fadeInLeft 1s ease-in-out;
 }
+
 @keyframes fadeInLeft {
     0% {
         opacity: 0;
@@ -146,7 +152,7 @@
 
 .contact-btn1:hover {
     background-color: brown !important;
-}   
+}
 
 .meain-heading {
     font-family: 'Playfair Display', ExtraBold;
@@ -158,14 +164,14 @@
 }
 
 
-.bannerImg{
-   
+.bannerImg {
+
     cursor: pointer;
-     transition: transform 0.3s ease !important;
+    transition: transform 0.3s ease !important;
 }
 
 
-.bannerImg:hover{
+.bannerImg:hover {
     transform: scale(1.05);
 }
 
@@ -544,4 +550,26 @@
 }
 
 
+#scrollTopBox {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    z-index: 1000;
+    background-color: rgba(56, 133, 146, 1);
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
 
+#scrollTopBox:hover {
+    background-color: white;
+}
+
+#scrollTopBox:hover i {
+color:#377880;
+}
