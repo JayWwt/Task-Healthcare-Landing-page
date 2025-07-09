@@ -86,7 +86,7 @@
     background-color: white;
     color: #377880;
     border: 2px solid #377880;
-     /* box-shadow: 0 4px 8px 0 #377880; */
+    /* box-shadow: 0 4px 8px 0 #377880; */
 }
 
 
@@ -545,7 +545,8 @@
     line-height: 30px;
     color: gray
 }
-.f-link:hover{
+
+.f-link:hover {
     color: #024750;
 }
 
@@ -553,7 +554,7 @@
     color: rgba(56, 133, 146, 1);
 }
 
-.list:hover{
+.list:hover {
     color: #377880;
 }
 
@@ -578,5 +579,5 @@
 }
 
 #scrollTopBox:hover i {
-color:#377880;
+    color: #377880;
 }
