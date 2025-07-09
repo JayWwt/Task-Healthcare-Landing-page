@@ -5,7 +5,6 @@
 }
 
 
-
 @font-face {
     font-family: Montserrat;
     src: url(font/Montserrat-VariableFont_wght.ttf);
@@ -17,11 +16,13 @@
 }
 
 
+
+
 .top-header {
     background-color: white;
     font-size: 14px;
     border-bottom: 1px solid #E2E2E2;
-    font-family: 'Montserrat' , medium;
+    font-family: 'Montserrat', medium;
     font-weight: 500;
     letter-spacing: 1%;
 
@@ -67,12 +68,18 @@
     padding: 0.75rem 2rem !important;
     margin-left: 1.5rem;
     white-space: nowrap;
+    animation: fadeInRight 1s ease-in-out;
+  
 }
+
+
+
+
+
 
 .contact-btn:hover {
     background-color: coral;
     color: white;
-
 }
 
 
@@ -117,12 +124,26 @@
     font-size: 18px;
     font-weight: 600;
     font-family: 'sora', semibold;
+      animation: fadeInLeft 1s ease-in-out;
 }
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+
+}
 
 .contact-btn1:hover {
-    background-color: brown;
-}
+    background-color: brown !important;
+}   
 
 .meain-heading {
     font-family: 'Playfair Display', ExtraBold;
@@ -130,6 +151,18 @@
     font-size: 40px;
     vertical-align: middle;
     color: rgba(70, 70, 70, 1);
+}
+
+
+.bannerImg{
+    animation: zoomIn 1s ease-in-out;
+    cursor: pointer;
+     transition: transform 0.3s ease !important;
+}
+
+
+.bannerImg:hover{
+    transform: scale(1.05);
 }
 
 
@@ -246,11 +279,11 @@
     border-radius: 10px;
     overflow: hidden;
     color: white;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease !important;
 }
 
 .card-custom:hover {
-    transform: scale(1.03);
+    transform: scale(1.03) !important;
     cursor: pointer;
 }
 
@@ -302,7 +335,7 @@
 }
 
 .service-title {
-    font-family: 'PlayFair Display',  SemiBold;
+    font-family: 'PlayFair Display', SemiBold;
     color: rgba(0, 0, 0, 1);
     font-size: 36px;
     letter-spacing: 3%;
@@ -407,24 +440,25 @@
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 20px;
-  transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
-.gallery-img1:hover{
-     transform: scale(1.05);
-    cursor: pointer;
-}
-
-.gallery-img2:hover{
-     transform: scale(1.05);
-    cursor: pointer;
-}
-
-
-.gallery-img3:hover{
+.gallery-img1:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
+
+.gallery-img2:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+.gallery-img3:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 .subscribe-section {
     background: rgba(55, 120, 128, 0.85);
     padding: 40px 20px;
@@ -444,13 +478,13 @@
     padding: 10px 15px;
     background-color: transparent;
     color: white;
-    
-    
+
+
 
 }
 
 .subscribe-form input::placeholder {
-    font-family: 'Poppins' medium;
+    font-family: 'Poppins'medium;
     font-size: 14px;
     font-weight: 500;
     color: white;
@@ -474,32 +508,39 @@
     font-family: Poppins Medium;
     font-weight: 500;
     font-size: 20px;
-     transition: all 0.5s ease;
-     
+    transition: all 0.5s ease;
+
 }
 
 
-.subscribe-form button:hover{
+.subscribe-form button:hover {
     transform: scale(1.05);
 }
 
 
-.f-title{
-    font-family: 'Poppins',  Medium;
+.f-title {
+    font-family: 'Poppins', Medium;
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 3%;
 }
-.f-link{
-  font-family: 'Poppins',  Medium;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 3%;
-  line-height: 30px;
-  color: gray
+
+.f-link {
+    font-family: 'Poppins', Medium;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3%;
+    line-height: 30px;
+    color: gray
 }
 
 
-.f-icon{
+.f-icon {
     color: rgba(56, 133, 146, 1);
 }
+
+.callButton {
+    visibility: visible;
+    animation: fadeInLeft 1s ease-in-out;
+}
+
