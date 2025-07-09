@@ -35,6 +35,7 @@
 
 .main-header {
     background-color: white;
+    animation: slideInDown 1s ease-in-out;
 
 }
 
@@ -68,7 +69,7 @@
     padding: 0.75rem 2rem !important;
     margin-left: 1.5rem;
     white-space: nowrap;
-    animation: fadeInRight 1s ease-in-out;
+   
   
 }
 
@@ -106,7 +107,9 @@
     }
 }
 
-
+.navToggleButton{
+    animation: fadeInRight 1s ease-in-out;
+}
 .mycontent {
     width: 100%;
 
@@ -151,11 +154,12 @@
     font-size: 40px;
     vertical-align: middle;
     color: rgba(70, 70, 70, 1);
+    animation: fadeInDown 1s ease-in-out;
 }
 
 
 .bannerImg{
-    animation: zoomIn 1s ease-in-out;
+   
     cursor: pointer;
      transition: transform 0.3s ease !important;
 }
@@ -539,8 +543,5 @@
     color: rgba(56, 133, 146, 1);
 }
 
-.callButton {
-    visibility: visible;
-    animation: fadeInLeft 1s ease-in-out;
-}
+
 
