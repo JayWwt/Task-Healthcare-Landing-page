@@ -15,9 +15,6 @@
     src: url(font/PlayfairDisplay-VariableFont_wght.ttf);
 }
 
-
-
-
 .top-header {
     background-color: white;
     font-size: 14px;
@@ -155,17 +152,16 @@
 
 .contact-btn1:hover {
     background-color: white;
-    color:#377880;
-     border: 2px solid #377880;
-      box-shadow: 0 4px 8px 0 #377880;
-    
+    color: #377880;
+    border: 2px solid #377880;
+    box-shadow: 0 4px 8px 0 #377880;
+
 }
 
 .contact-btn1:hover I {
-   color: #377880;
-    
-}
+    color: #377880;
 
+}
 
 .meain-heading {
     font-family: 'Playfair Display', ExtraBold;
@@ -181,7 +177,7 @@
 
     cursor: pointer;
     transition: transform 0.3s ease !important;
-    animation:lightSpeedInRight 1s ease-in-out;
+    animation: lightSpeedInRight 1s ease-in-out;
 }
 
 
@@ -349,12 +345,14 @@
     object-fit: cover;
     transition: transform 0.3s ease;
 
+
 }
 
 .info-img:hover {
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.05) !important;
     box-shadow: 0 4px 8px 0 rgba(65, 132, 247, 0.24);
+
 
 }
 
@@ -555,10 +553,10 @@
     font-weight: 400;
     letter-spacing: 3%;
     line-height: 30px;
-    color: gray; 
+    color: gray;
     display: inline-block;
     transition: transform 0.5s ease-in-out;
-    
+
 }
 
 .f-link:hover {
