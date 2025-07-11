@@ -181,10 +181,6 @@
 }
 
 
-.bannerImg:hover {
-    transform: scale(1.05);
-}
-
 
 .background-text1 {
     position: absolute;
@@ -343,18 +339,12 @@
 
 .info-img {
     object-fit: cover;
-    transition: transform 0.3s ease;
-
-
-}
-
-.info-img:hover {
-    cursor: pointer;
-    transform: scale(1.05) !important;
-    box-shadow: 0 4px 8px 0 rgba(65, 132, 247, 0.24);
-
+    /* transition: transform 0.3s ease; */
+cursor: pointer;
 
 }
+
+
 
 .service-title {
     font-family: 'PlayFair Display', SemiBold;
@@ -447,8 +437,8 @@
 
 @media (max-width: 576px) {
     .service-image {
-        width: 170px;
-        height: 170px;
+        width: 200px;
+        height: 200px;
     }
 
     .service-text {
@@ -463,9 +453,10 @@
     border-radius: 10px;
     margin-bottom: 20px;
     transition: all 0.5s ease;
+    cursor: pointer;
 }
 
-.gallery-img1:hover {
+/* .gallery-img1:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
@@ -478,8 +469,8 @@
 
 .gallery-img3:hover {
     transform: scale(1.05);
-    cursor: pointer;
-}
+    
+} */
 
 .subscribe-section {
     background: rgba(55, 120, 128, 0.85);
@@ -531,12 +522,25 @@
     font-weight: 500;
     font-size: 20px;
     transition: all 0.5s ease;
+   
 
 }
 
 
-.subscribe-form button:hover {
-    transform: scale(1.05);
+
+
+.subscribe-form button:hover{
+    background-color: #F4A521;
+    color: white;
+}
+.subscribe-form button i{
+     display: inline-block;
+    transition: transform  0.5s ease-in-out;
+}
+
+.subscribe-form button:hover i {
+    
+    transform: rotate(90deg);
 }
 
 
@@ -569,6 +573,36 @@
 .f-icon {
     color: rgba(56, 133, 146, 1);
 }
+
+@media (max-width:576px){
+    .footer-last{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        display: block;
+    }
+
+    .footer-first{
+        display: none;
+    }
+}
+
+@media (min-width:576px){
+    .footer-first{
+        
+        display: block;
+    }
+
+
+    .footer-last{
+        display: none;
+    }
+
+
+}
+
+
+
 
 
 
