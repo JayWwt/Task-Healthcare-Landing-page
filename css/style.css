@@ -121,6 +121,9 @@
 }
 
 
+
+
+
 .contact-btn1 {
     width: 160px;
     height: 55px;
@@ -340,7 +343,7 @@
 .info-img {
     object-fit: cover;
     /* transition: transform 0.3s ease; */
-cursor: pointer;
+    cursor: pointer;
 
 }
 
@@ -522,24 +525,25 @@ cursor: pointer;
     font-weight: 500;
     font-size: 20px;
     transition: all 0.5s ease;
-   
+
 
 }
 
 
 
 
-.subscribe-form button:hover{
+.subscribe-form button:hover {
     background-color: #F4A521;
     color: white;
 }
-.subscribe-form button i{
-     display: inline-block;
-    transition: transform  0.5s ease-in-out;
+
+.subscribe-form button i {
+    display: inline-block;
+    transition: transform 0.5s ease-in-out;
 }
 
 .subscribe-form button:hover i {
-    
+
     transform: rotate(90deg);
 }
 
@@ -574,37 +578,32 @@ cursor: pointer;
     color: rgba(56, 133, 146, 1);
 }
 
-@media (max-width:576px){
-    .footer-last{
-        width: 100%;
-        padding-left: 0;
-        padding-right: 0;
-        display: block;
-    }
-
-    .footer-first{
+@media (max-width:576px) {
+    .footer-first {
         display: none;
     }
-}
 
-@media (min-width:576px){
-    .footer-first{
-        
+    .footer-last {
+
         display: block;
-    }
-
-
-    .footer-last{
-        display: none;
     }
 
 
 }
 
+@media (min-width:576px) {
+    .footer-first {
+
+        display: block;
+    }
 
 
+    .footer-last {
+        display: none;
+    }
 
 
+}
 
 #scrollTopBox {
     position: fixed;
