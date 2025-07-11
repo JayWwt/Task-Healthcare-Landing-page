@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    scroll-behavior: smooth;
+}
 
 @font-face {
     font-family: Montserrat;
